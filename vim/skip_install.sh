@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "installing theme"
 mkdir -p ~/.vim/colors
 curl https://raw.githubusercontent.com/sickill/vim-monokai/master/colors/monokai.vim -o ~/.vim/colors/monokai.vim
