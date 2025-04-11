@@ -107,7 +107,7 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
 
 # Set Lock Message to show on login screen
-sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText -string "This MacBook is linked to an iCloud account and rendered valueless if lost or stolen. Please return by calling +31 6 82 54 38 24. Reward included."
+sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText -string "This MacBook is linked to an iCloud account and rendered valueless if lost or stolen. Please return by calling +31 6 82 54 38 24 or mailing blackfrostnl@gmail.com. Reward included."
 
 # Activate all changed settings without logout/login
 /System/Library/PrivateFrameworks/SystemAdministration.framework/Resources/activateSettings -u
