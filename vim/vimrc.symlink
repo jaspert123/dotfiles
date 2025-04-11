@@ -105,3 +105,9 @@ set backspace=indent,eol,start
 
 " copy to system clipboard
 "set clipboard=unnamedplus
+
+" Change tabbing behavior (2024-11)
+" For command/normal mode
+nnoremap <S-Tab> <<
+" For insert mode
+inoremap <S-Tab> <C-d>
