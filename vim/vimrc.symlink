@@ -35,6 +35,9 @@ Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'iamcco/markdown-preview.nvim'
 
+" Markdown extension for visualizations, intalled by jasper on 2025-07-11
+Plugin 'mracos/mermaid.vim'
+
 " Ultisnips plugin, installed by jasper on 2022-10-10
 " Track the engine.
 Plugin 'SirVer/ultisnips'
