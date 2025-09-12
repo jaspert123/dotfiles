@@ -1,0 +1,15 @@
+{ "title": "Keep solitary letter/key ''s'' from multiple press!",
+  "rules": [
+     { "description": "Keep 's' from being pressed twice",
+       "manipulators": [
+        { "from": { "key_code": "s" },
+          "parameters": {"basic.to_if_held_down_threshold_milliseconds": 10},
+          "to_if_held_down":[
+                 { "key_code": "s",
+                   "repeat": false }],
+          "type": "basic"
+                }  
+            ]
+        }
+    ]    
+}
