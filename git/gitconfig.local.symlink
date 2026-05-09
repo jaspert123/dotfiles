@@ -1,9 +1,0 @@
-[user]
-	name = Jasper
-	email = jaspertax@gmail.com
-[credential]
-    helper = osxkeychain
-[core]
-    excludesfile = ~/.gitignore
-[push]
-	autoSetupRemote = true
