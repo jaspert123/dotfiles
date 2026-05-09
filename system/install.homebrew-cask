@@ -1,11 +1,11 @@
-google-chrome
-brave-browser
+#google-chrome
+#brave-browser
 
-1password
+#1password
 
-nrlquaker-winbox
+#nrlquaker-winbox
 openvpn-connect
-little-snitch
+#little-snitch
 
 spotify
 discord
@@ -13,14 +13,14 @@ obs
 vlc
 whatsapp
 
-gimp
+#gimp
 
 balenaetcher
 
 karabiner-elements
 unshaky
-logi-options-plus
-steermouse
+#logi-options-plus
+#steermouse
 qmk-toolbox
 fanny
 
