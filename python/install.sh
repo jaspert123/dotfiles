@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pythonversion='3.11'
+pythonversion='3.14'
 
 if pyenv versions | grep -q $pythonversion
 then
