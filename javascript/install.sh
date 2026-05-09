@@ -1,6 +1,7 @@
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
 
-nodeversion='24.15.0'
+#nodeversion='24.15.0'
+nodeversion='v22.22.2'
 
 if nvm ls | grep -q $nodeversion
 then
